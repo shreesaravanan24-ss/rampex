@@ -6,7 +6,7 @@ public class Schedule {
             for (int week = 1; week <= 4; week++) {
 
                 for (int day = 1; day <= 7; day++) {
-
+                    if(week>=2){break;}
                     System.out.println("Month: " + month + " Week: " + week + " Day: " + day +" Days Completed: " + ++dayscompleted);
                     System.out.println("Come to College");
                 }
