@@ -1,4 +1,4 @@
-package Day_7.class_task;
+package Day_7.class_task.Arrays;
 
 import java.util.Arrays;
 public class ArrayPractice {
