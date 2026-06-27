@@ -1,3 +1,5 @@
+package Day_6;
+
 public class Schedule {
     public static void main(String[] args) {
        int dayscompleted=0;
