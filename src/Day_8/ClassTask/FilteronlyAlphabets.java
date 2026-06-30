@@ -1,11 +1,9 @@
-package Day__8;
-
-import Day_8.ClassTask.String;
-
+package Day_8.ClassTask;
+import java.lang.String;
 import java.util.Scanner;
 
 public class FilteronlyAlphabets {
-        public static void main(Day_8.ClassTask.String[] args) {
+        public static void main(java.lang.String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your insta user name: ");
         String userName = sc.nextLine();

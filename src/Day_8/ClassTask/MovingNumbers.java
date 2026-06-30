@@ -1,7 +1,5 @@
-package Day__8;
-
-import Day_8.ClassTask.String;
-
+package Day_8.ClassTask;
+import java.lang.String;
 import java.util.Arrays;
 public class MovingNumbers {
     public static void main(String[] args){
