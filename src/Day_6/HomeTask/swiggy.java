@@ -1,4 +1,4 @@
-package Day_1;
+package Day_6.HomeTask;
 
 import java.util.Scanner;
 

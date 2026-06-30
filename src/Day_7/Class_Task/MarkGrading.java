@@ -1,4 +1,4 @@
-package Day_7.class_task.Arrays;
+package Day_7.Class_Task;
 import java.util.Scanner;
 import java.util.Arrays;
 public class MarkGrading {

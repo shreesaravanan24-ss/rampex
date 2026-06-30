@@ -1,4 +1,4 @@
-package Day_7.class_task.Arrays;
+package Day_7.Class_Task;
 
 public class array {
     public static void main(String [] args){

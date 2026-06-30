@@ -1,4 +1,4 @@
-package Day_6;
+package Day_6.Class_Task;
 
 public class Schedule {
     public static void main(String[] args) {
