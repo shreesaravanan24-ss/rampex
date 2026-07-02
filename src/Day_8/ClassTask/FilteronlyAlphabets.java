@@ -11,6 +11,8 @@ public class FilteronlyAlphabets {
             if (userName.charAt(i) >= 'a' && userName.charAt(i) <= 'z') {
                 System.out.println(userName.charAt(i));
             }
+            //System.out.println(userName.charAt(i));
+
         }
     }
 }

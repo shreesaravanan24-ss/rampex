@@ -4,7 +4,9 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class ParallelArrays {
     public static void main(java.lang.String[] args){
-        Scanner sc = new Scanner(System.in);
+        //public static void main(String[] args){
+            //java.lang.Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
         java.lang.String[] drinks = {"pepsi", "sprite","mazza","mountain dew", "campa"};
         int [] prices = {40,20,45,40,10};
         System.out.println(Arrays.toString(drinks));
