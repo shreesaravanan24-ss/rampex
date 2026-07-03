@@ -1,4 +1,4 @@
-package Day_10.Class_Task;
+/*package Day_10.Class_Task;
 import java.util.Scanner;
 public class CarTest2 {
     public static void main(String[] args) {
@@ -16,9 +16,10 @@ class Car {
     int maxspeed;
     int speed;
 
-    Car(){
+    Car() {
         System.out.print("Constructed called");
     }
+
     public void setter() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the brand name: ");
@@ -30,4 +31,4 @@ class Car {
         maxspeed = sc.nextInt();
 
     }
-}
+}*/

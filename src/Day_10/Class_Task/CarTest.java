@@ -40,24 +40,26 @@ public class CarTest {
         int maxspeed = 40;
 
         //methods
-        /*public void drive() {
+        public void drive() {
             System.out.print("Driving");
-        }*/
-        public void accelerate(){
-            if(speed < maxspeed){
-            speed = speed+10;
-            System.out.println(brand + " is driving at: " + speed + "km");
-        }else{
+        }
+
+        public void accelerate() {
+            if (speed < maxspeed) {
+                speed = speed + 10;
+                System.out.println(brand + " is driving at: " + speed + "km");
+            } else {
                 System.out.println("Maximum Speed Reached " + maxspeed);
             }
         }
-        public void brake(){
-            /*speed = speed-5;
-            System.out.println(brand + " braken applied speed: " + speed + "kms");*/
-            if(speed == 0){
+
+        public void brake() {
+            speed = speed - 5;
+            System.out.println(brand + " braken applied speed: " + speed + "kms");
+            if (speed == 0) {
                 System.out.print("vehicle is not moving");
-            }else{
-                speed = speed-5;
+            } else {
+                speed = speed - 5;
                 System.out.println(brand + " braken applied speed: " + speed + "kms");
             }
         }

@@ -1,4 +1,4 @@
-package Day_10;
+package Day_10.Class_Task;
 
 public class House {
     String color ="skyblue";
