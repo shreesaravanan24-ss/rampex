@@ -1,4 +1,4 @@
-package Day_1;
+package Day_5;
 
 public class Prime {
 

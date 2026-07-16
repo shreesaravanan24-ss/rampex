@@ -1,6 +1,65 @@
 package Day_14.Home_Task;
 
-import java.util.ArrayList;
+import java.util.Scanner;
+
+class Product {
+    String name;
+    double price;
+    int stock;
+
+    Product(String name, double price, int stock) {
+        this.name = name;
+        this.price = price;
+        this.stock = stock;
+    }
+}
+
+public class ParallelArraysToObj {//Billing System
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Product[] products = {
+                new Product("Mazza", 20, 10),
+                new Product("Pepsi", 25, 15),
+                new Product("Coke", 30, 20)
+        };
+
+        double total = 0;
+
+        System.out.println("------ BILL ------");
+
+        for (Product p : products) {
+            System.out.print("Enter quantity for " + p.name + ": ");
+            int qty = sc.nextInt();
+
+            if (qty < 0) {
+                throw new IllegalArgumentException("Negative quantity is not allowed");
+            }
+
+            if (qty > p.stock) {
+                System.out.println("Insufficient Stock");
+                continue;
+            }
+
+            if (qty > 0) {
+                double amount = qty * p.price;
+                total += amount;
+                p.stock -= qty;
+
+                System.out.println(p.name + " x " + qty + " = Rs." + amount);
+            }
+        }
+
+        System.out.println("------------------");
+        System.out.println("Total Bill = Rs." + total);
+
+        System.out.println("\nUpdated Stock");
+        for (Product p : products) {
+            System.out.println(p.name + " : " + p.stock);
+        }
+    }
+}
+/*import java.util.ArrayList;
 import java.util.List;
 
 // Custom Exception for negative quantities
@@ -113,4 +172,4 @@ public class ParallelArraysToObj {
         // Print updated stock verification
         System.out.println("Updated Stock - Mazza: " + mazza.getStock() + ", Pepsi: " + pepsi.getStock());
     }
-}
+}*/
